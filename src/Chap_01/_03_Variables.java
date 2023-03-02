@@ -26,6 +26,5 @@ public class _03_Variables {
         l = 1_000_000_000_000L;
         System.out.println(l);
 
-        int, long, float, double, char, String, boolean
     }
 }
