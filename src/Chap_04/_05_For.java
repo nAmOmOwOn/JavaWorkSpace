@@ -62,5 +62,23 @@ public class _05_For {
             System.out.println("현재까지 총합은 " + sum + "입니다.");
         }
         System.out.println("1부터 10까지의 모든 수의 총합은 " + sum + "입니다.");
+        System.out.println();
+
+        // enhanced for statement
+        int[] arr = {10,20,30,40,50};
+
+        int sum2 = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.printf("%d ",arr[i]);
+        }
+        System.out.println();
+
+        for (int tmp : arr ) {
+            System.out.printf("%d ", tmp);
+            sum2 += tmp;
+        }
+        System.out.println();
+        System.out.println("sum = "+ sum2);
     }
 }
