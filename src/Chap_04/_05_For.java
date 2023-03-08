@@ -79,6 +79,6 @@ public class _05_For {
             sum2 += tmp;
         }
         System.out.println();
-        System.out.println("sum = "+ sum2);
+        System.out.println("sum2 = "+ sum2);
     }
 }
