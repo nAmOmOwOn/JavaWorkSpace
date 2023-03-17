@@ -24,7 +24,7 @@ public class _04_SwitchCase {
         System.out.println("조회 완료 #1");
 
         // Switch Case 문을 이용 (명확한 케이스가 있는 경우)
-        ranking = 2;
+        ranking = 3;
         switch (ranking) {
             case 1:
                 System.out.println("전액 장학금");

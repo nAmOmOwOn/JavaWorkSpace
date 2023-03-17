@@ -1,4 +1,8 @@
 package Practice;
 
-public class Practice {
+public class Practice{
+
+
+
 }
+
