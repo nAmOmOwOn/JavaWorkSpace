@@ -6,6 +6,7 @@ public class Account {
     protected String name;
 
     protected Account(double initBalance) {
+
         balance = initBalance;
     }
 
@@ -14,6 +15,7 @@ public class Account {
         this.name = name;
     }
     public double getBalance() {
+
         return balance;
     }
 
